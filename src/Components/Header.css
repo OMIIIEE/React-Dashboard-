@@ -1,0 +1,92 @@
+
+.header {
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+   
+  }
+  
+  .upper-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 100px;
+    height: 50%;
+  }
+  
+  .website-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #116255;
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+  .right-side img{
+    width: 18px;
+    cursor: pointer;
+  }
+  .right-side .icons{
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 20px;
+  }
+  .right-side button{
+    padding: 5px;
+    font-size: small;
+    border-radius: 50px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+  }
+  .right-side .one{
+    background-color:  #FF4500;
+    color: white;
+  }
+  .right-side .two{
+    background-color:  #0001F7;
+    color: white;
+  }
+  
+  .lower-part {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+    height: 50%;
+    
+  }
+  
+  .lower-part nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .lower-part nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .lower-part nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .lower-part nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    
+  }
+  
+  .lower-part nav ul li a:hover {
+    color: #007bff;
+  }
+  
