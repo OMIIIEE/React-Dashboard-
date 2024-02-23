@@ -22,6 +22,11 @@ function Header() {
           <span><img src='assets/contact.png' alt=''></img></span>
           
           </div>
+          <input type="checkbox" id="check"/>
+        <label for="check" className="checkbtn">
+        <i class='bx bx-menu-alt-right' ></i>
+         
+        </label>
         </div>
       </div>
       <div className="lower-part">

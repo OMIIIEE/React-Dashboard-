@@ -19,3 +19,5 @@ import StaffDetailsForm from './forms/StaffDetailsForm';
  }
 
  export default EnrollNewFrom;
+
+ 
